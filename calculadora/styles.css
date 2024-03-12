@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+}
+
+#Zero{
+    border: none;
+    background-color: #30302f;
+    color: white;
+    font-size: 32px;
+    padding: 15px;
+    border-radius: 10000px;
+    border: none;
+    text-align: left;
+}
+
+#Time{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#wifiIcon {
+    width: 28px;
+    height: 17px;
+}
+
+#signalIcon{
+    width: 17px;
+    height: 17px;
+}
+
+#batteryIcon{
+    width: 20px;
+    height: 17px;
+}
+
+#iPhoneContainer {
+    background-color: #000000;
+    border-radius: 44px;
+    width: 293px;
+    height: 633px;
+    padding-bottom: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 17px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    overflow: hidden;
+}
+
+#InfoHeader {
+    font-size: 10px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#iPhoneDisplay {
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+    height: 150px;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-size: 75px;
+}
+
+#numPad {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 11px;
+
+}
+
+#numPad button:nth-last-child(3) {
+    grid-column: span 2;
+}
+
+#Decimal{
+    border: none;
+    background-color: #30302f;
+    color: white;
+    font-size: 32px;
+    padding: 15px;
+    border-radius: 10000px;
+    border: none;
+
+}
+
+
+.intNumbers {
+    border: none;
+    background-color: #30302f;
+    color: white;
+    font-size: 32px;
+    padding: 15px;
+    border-radius: 10000px;
+    border: none;
+}
+
+/* AC, +/-, % buttons */
+#AC, #Percentage {
+    background-color: #b3b5b7;
+    color: #000;
+    font-size: 23px;
+    padding: 20px;
+    border-radius: 10000px;
+    border: none;
+}
+
+#PlusMinus {
+    background-color: #b3b5b7;
+    color: #000;
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 10000px;
+    border: none;
+}
+
+/* Operand buttons */
+#Division, #Multiply, #Minus, #Plus, #Equals {
+    background-color: #f39808;
+    color: #fff;
+    font-size: 24px;
+    padding: 15px;
+    border-radius: 10000px;
+    border: none;
+    
+}
+
